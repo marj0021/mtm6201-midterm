@@ -1,0 +1,368 @@
+/* CSS Code to remove default padding and margin. Also to make the box-sizing to border-box */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* Defining the font-family of webpages. */
+body {
+    font-family: sans-serif;
+}
+
+/* Remove default text decoration of links and color to inherit from parent element. */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Styling of navigation bar Starts */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-weight: 700;
+}
+
+nav .list {
+    margin-left: auto;
+}
+
+div.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.para {
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #FFFBC1;
+}
+/* Styling of navigation bar ends. */
+.menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 40px;
+}
+/* Styling of menu items on homepage start. */
+.menu-items {
+    text-align: center;
+    margin: 0 10px 20px;
+}
+
+.service {
+    border: 3px solid black;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    padding: 10px 20px;
+}
+
+div .menu-items img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.offer {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #F7A4A4;
+}
+
+.label {
+    padding-bottom: 10px;
+}
+
+/* Styling of menu items on homepage ends. */
+
+/* Styling of footer starts. */
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #FEBE8C;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons>a {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    color: black;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* Styling of footer ends. */
+
+
+/* Styling of main content starts. */
+main h2 {
+    padding: 50px;
+    font-size: 30px;
+}
+
+.contact {
+    padding: 0 100px;
+}
+
+.contact form {
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.inp {
+    width: 100%;
+    padding: 8px;
+    background-color: #F7A4A4;
+    border-radius: 12px;
+    border: 1px solid #ff8e8e;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #F7A4A4;
+    border: 1px solid #ff8e8e;
+    width: 200px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-container{
+    text-align: right;
+    padding: 40px 50px;
+}
+.center {
+    text-align: center;
+}
+
+
+/* Styling of about page */
+.about {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+.about>p {
+    text-align: center;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.about>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* Styling of about page Ends */
+
+
+/* Styling of fade in animation on homepage menu-items */
+.fadeIn {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* Styling of up to down animation on contact page fields */
+.toDown {
+    -webkit-animation: down 1s;
+    animation: down 1s;
+}
+
+.toDown {
+    -webkit-animation: down 1s;
+    animation: down 1s;
+}
+
+@-webkit-keyframes down {
+    0% {
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+}
+
+    100% {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+}
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Styling for the responsiveness of webpages.*/
+@media (max-width: 768px) {
+    .menu {
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    .right {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .icons>a {
+        margin: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav .list {
+        margin-left: 0;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px;
+    }
+
+    main h2 {
+        text-align: center;
+    }
+
+    .about>img {
+        margin-bottom: 20px;
+    }
+
+    .about>p {
+        padding-left: 0;
+    }
+
+    .contact {
+        padding: 0 20px;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+
+    .btn-container{
+        text-align: center;
+    }
+}
